@@ -1,0 +1,31 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "out": false // set this to true to hide the "out" folder with the compiled JS files
+  },
+  "search.exclude": {
+    "out": true, // set this to false to include "out" folder in search results
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  // Turn off tsc task auto detection since we have the necessary tasks as npm scripts
+  "typescript.tsc.autoDetect": "off",
+  "workbench.colorCustomizations": {
+    "editorGroup.border": "#b294f3",
+    "panel.border": "#b294f3",
+    "sideBar.border": "#b294f3",
+    "statusBar.background": "#9166ee",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#7038e9",
+    "tab.activeBorder": "#b294f3",
+    "titleBar.activeBackground": "#9166ee",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#9166ee99",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#9166ee",
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
